@@ -1,4 +1,4 @@
-<h1><strong><span style="color: #77C8D5;">STUDENT VERSION (Week 2)</strong></span>
+<h1><strong><span style="color: #77C8D5;">STUDENT VERSION (TW-4)</strong></span>
 
 ![logo](teamwork_logo.png)
 
@@ -26,12 +26,12 @@ class="c46 c48 c42">Coffee Break</span>
 <span class="c16 c30">▶ </span><span
 class="c46 c48 c42">Logical Reasoning Questions</span>
 
-<span class="c16 c30">▶ </span><span class="c23 c16">Video of the week</span>
+<span class="c16 c30">▶ </span><span class="c23 c16">Video of the
+week</span>
 
-<span class="c16 c30">▶ </span><span class="c23 c16">Retro meeting</span>
+<span class="c16 c30">▶ </span><span class="c23 c16">Retro
+meeting</span>
 
-
-<span class="c30">▶ </span><span class="c46 c48 c42">Case study / project</span>
 
 <br>
 <br>
@@ -45,7 +45,7 @@ class="c46 c48 c42">Logical Reasoning Questions</span>
                 <td style="color: #FA8072; text-align:right;"><h3><strong><p>10m</p><td>                </tr>
 </table>
 
-- Personal Questions (Stay at home & Corona, 
+- Personal Questions (
 Study Environment, Kids etc.) 
 - Any challenges (Classes, Coding, studying, etc.) 
 - Ask how they’re studying, give personal advice. 
@@ -58,223 +58,228 @@ Study Environment, Kids etc.)
                 <td style="color: #FA8072; text-align:right;"><h3><strong><p>15m</p><td>                </tr>
 </table>
 
-<br>
-
-**1. Which of the following is NOT a valid way to specify the string literal foo'bar in Python?**
-
-<strong>A.</strong> 'foo\\'bar'<br>
-<strong>B.</strong> "foo'bar"<br>
-<strong>C.</strong> 'foo'bar'<br>
-<strong>D.</strong> """foo'bar"""
-
-
-<br>
-
-**2. Which of the following is not a Python built-in function?**
-
-<strong>A.</strong> map()<br>
-<strong>B.</strong> round()<br>
-<strong>C.</strong> repr()<br>
-<strong>D.</strong> diff()
-
-
-<br>
-
-**3. How do you insert COMMENTS in Python code?**
-
-<strong>A.</strong> #This is a comment<br>
-<strong>B.</strong> //This is a comment<br>
-<strong>C.</strong>	/This is a comment/<br>
-<strong>D.</strong> --This is a comment--
-
-
-<br>
-
-**4. Which one is NOT a legal variable name?**
-
-<strong>A.</strong>  _myvar<br>
-<strong>B.</strong>  Myvar<br>
-<strong>C.</strong>	  my_var<br>
-<strong>D.</strong> my-var
-
-
-<br>
-
-**5. What is the correct syntax to output the type of a variable or object in Python?** 
-
-<strong>A.</strong>  print(type(x))<br>
-<strong>B.</strong>  print(typeOf(x))<br>
-<strong>C.</strong>	 print(typeof(x))<br>
-<strong>D.</strong>  print(typeof x)
-
-
-<br>
-
-
-
-<br>
-
-**6.  What will be the output of the following Python statement?**
+**1. What will be the output of the following Python code?**
 
 ```bash
-print("abcd"[2:])
-```
+print('abcefd'.replace('cd', '12'))
 
-<strong>A.</strong> ac<br>
-<strong>B.</strong> bc<br>
-<strong>C.</strong> cd<br>
-<strong>D.</strong> dc
+
+```
+<strong>A.</strong>  ab1ef2<br>
+<strong>B.</strong>  abcefd<br>
+<strong>C.</strong>  ab1efd<br>
+<strong>D.</strong>  ab12ed2
+<br>
+
+**2. What is the proper way to write a list comprehension that represents all the keys in this dictionary in Python?**
+
+```bash
+fruits = {'Apples': 5, 'Oranges': 3, 'Bananas': 4}
+```
+<strong>A.</strong> fruit_names = [x in fruits.keys() for x]<br>
+<strong>B.</strong> fruit_names = for x in fruits.keys() <br>
+<strong>C.</strong>  fruit_names = [x for x in fruits.keys()]<br>
+<strong>D.</strong> fruit_names = x for x in fruits.keys()
 
 
 <br>
 
-**7.  What will be the output of the following Python statement?**
+**3. When would you use a for loop in Python?**
+
+<strong>A.</strong> Only in some situations, as loops are used ony for certaing type of programming.<br>
+<strong>B.</strong> When you need to check every element in an iterable of known length.<br>
+<strong>C.</strong>  When you want to minimize the use of strings in your code.<br>
+<strong>D.</strong> When you want to run code in one file for a function in another file
+
+
+<br>
+
+**4. What is the output of the following program?**
 
 ```bash
-print(chr(ord('b')+1))
+i = 5
+while True:
+    if i%0xe == 0:
+        break
+    print(i)
+    i += 1
 ```
-<strong>A.</strong> a<br>
-<strong>B.</strong> b<br>
-<strong>C.</strong> c<br>
-<strong>D.</strong> A
 
+<strong>A.
+
+```bash
+Error
+```
+
+<strong>B.
+
+```bash
+5
+6
+7
+8
+```
+
+<strong>C.
+
+```bash
+5
+6
+```
+<strong>D.
+
+```bash
+5
+6
+7
+8
+9
+10
+11
+12
+13
+```
+
+
+
+<br>
+
+**5. What will be the output of the following Python code snippet?**
+
+```bash
+x = 'abcd'
+for i in range(len(x)):
+    i[x].upper()
+print (x)
+```
+
+<strong>A.</strong> abcd<br>
+<strong>B.</strong>  ABCD<br>
+<strong>C.</strong>  error<br>
+<strong>D.</strong>  aBcD
+<br>
+
+
+<br>
+
+**6. Suppose there is a list such that: k=[2,3,4]. If we want to print this list in reverse order, which of the following methods should be used?**
+
+<strong>A.</strong> reverse(k)<br>
+<strong>B.</strong>  list(reverse[(k)])<br>
+<strong>C.</strong>   reversed(k) <br>
+<strong>D.</strong>  list(reversed(k))
+<br>
+
+
+<br>
+
+**7. What will be the output of the following Python code?**
+
+```bash
+a=[1,2,3,4]
+b=[sum(a[0:x+1]) for x in range(0,len(a))]
+print(b)
+```
+<strong>A.</strong>  [1,3,5,7]<br>
+<strong>B.</strong> [1,3,6,10]<br>
+<strong>C.</strong> 10<br>
+<strong>D.</strong> [1,3,5]
+
+
+<br>
+
+**8. What will be the output of the following Python code?**
+
+```bash
+for x in set('pqr'):
+	print(x*2)
+```
+<strong>A.</strong>  
+
+```bash
+pqr
+pqr
+```
+
+<strong>B.</strong>  
+
+```bash
+qqpprr
+```
+<strong>C.</strong>  
+
+```bash
+ppqqrr
+```
+<strong>D.</strong>  
+
+```bash
+rr
+qq
+pp
+```
+<br>
+
+
+<br>
+
+**9. What will be the output of the following Python code snippet?**
+
+```bash
+count = 0
+my_string = "Clarusway"
+my_char = "a"
+for i in my_string:
+    if i == my_char:
+        count += 1
+print(count)
+```
+
+<strong>A.</strong> True<br>
+<strong>B.</strong>  1<br>
+<strong>C.</strong>  2<br>
+<strong>D.</strong>  3
+<br>
+
+
+<br>
+
+**10. What will be the output of the following Python code snippet?**
+
+```bash
+num = 2013
+reversed_num = 0
+
+while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+
+print(reversed_num)
+```
+
+<strong>A.</strong> Error<br>
+<strong>B.</strong>  2013<br>
+<strong>C.</strong> 3102<br>
+<strong>D.</strong> 2222
+<br>
+
+
+<br>
+
+
+
+
+
+<br>
+
+<br>
+
+<br>
 
 <b>
 
-**8.  What will be the output of the following Python statement?**
-
-```bash
-print(format("Welcome", "10s"), end = '#')
-print(format(111, "4d"), end = '#')
-print(format(924.656, "3.2f"))
-```
-````text
-A. Welcome# 111#924.66
-
-B. Welcome#111#924.66
-
-C. Welcome#111#.66
-
-D. Welcome   # 111#924.66
-````
-more info about format https://www.geeksforgeeks.org/python-format-function/
-
 <b>
-
-**9.  What will be the output of the following Python code?**
-
-```bash
-print("xyyzxyzxzxyy".count('yy', 2))
-```
-<strong>A.</strong> 3<br>
-<strong>B.</strong> 2<br>
-<strong>C.</strong> 1<br>
-<strong>D.</strong> 4
-
-<b>
-
-**10.  What will be the output of the following Python code?**
-
-```bash
-print("xyyzxyzxzxyy".endswith("xyy", 0, 2))
-```
-<strong>A.</strong> 0<br>
-<strong>B.</strong> 1<br>
-<strong>C.</strong> True<br>
-<strong>D.</strong> False
-
-
-<br>
-
-**11.  What is “Hello”.replace(“l”, “e”)?**
-
-<strong>A.</strong> Heeeo<br>
-<strong>B.</strong> Heelo<br>
-<strong>C.</strong> Heleo<br>
-<strong>D.</strong> None
-
-
-<br>
-
-**12.  What will be the output of the following Python code?**
-
-```bash
-print("xyyzxyzxzxyy".count('xyy', 2, 11))
-```
-<strong>A.</strong> 2<br>
-<strong>B.</strong> 0<br>
-<strong>C.</strong> 1<br>
-<strong>D.</strong> error
-
-
-<b>
-
-
-**13.  What will be the output of the following Python code snippet?**
-
-```bash
-print('abcdefcdghcd'.split('cd'))
-```
-<strong>A.</strong> [‘ab’, ‘ef’, ‘gh’]<br>
-<strong>B.</strong> [‘ab’, ‘ef’, ‘gh’, ”]<br>
-<strong>C.</strong>  (‘ab’, ‘ef’, ‘gh’)<br>
-<strong>D.</strong> ) (‘ab’, ‘ef’, ‘gh’, ”)
-
-<br>
-
-**14. How can you check your current git version?**
-
-<strong>A.</strong> git --v<br>
-<strong>B.</strong> git --version<br>
-<strong>C.</strong> git --option<br>
-<strong>D.</strong> git --current
-
-
-<br>
-
-**15. What command lets you create a connection between a local and remote repository?**
-
-<strong>A.</strong> git remote add new<br>
-<strong>B.</strong> git remote add origin<br>
-<strong>C.</strong> git remote new origin<br>
-<strong>D.</strong> git remote origin
-
-
-<br>
-
-**16. Which of the following is true you when you use the following command?**
-
-<strong>A.</strong> All new and updated files are staged<br>
-<strong>B.</strong> Files are staged in alphabetical order<br>
-<strong>C.</strong> All new files are staged<br>
-<strong>D.</strong> Only updated files are staged
-
-
-<br>
-
-**17. What option can you use to apply git configurations across your entire git environment?**
-
-<strong>A.</strong> --all<br>
-<strong>B.</strong>  --master<br>
-<strong>C.</strong>  --global<br>
-<strong>D.</strong> --update
-
-
-<br>
-
-**18.  If you cloned an existing git repository, what would happen?**
-
-
-<strong>A.</strong> A new copy would overwrite the central repository<br>
-<strong>B.</strong> A copy of the repository would be created on your local machine<br>
-<strong>C.</strong> Nothing, cloning is not a supported git function<br>
-<strong>D.</strong> A copy of the repository would be created on the hosting platform
-
-
-
-
-
-<hr>
 
 <table style= "width:100%;">
                 <tr>
@@ -282,25 +287,23 @@ print('abcdefcdghcd'.split('cd'))
                 <td style="color: #FA8072; text-align:right;"><h3><strong><p>15m</p><td>                </tr>
 </table>
 
-**1. What is the difference between Git and Github?**
+<br>
+
+**1.  Is indentation required in python?**
+
+
+
+
+<br>
+
+**2. How does break, continue and pass work?**
 
 
 <br>
 
 
-**2. Mention the various Git repository hosting functions?**
 
 
-<br>
-
-
-**3. What is forking in Git and What is the use of a Git clone?**
-
-<br>
-
-**4. How memory is managed in Python?**
-
-<br>
 
 <hr><hr>
  
@@ -309,18 +312,13 @@ print('abcdefcdghcd'.split('cd'))
                 <td style="color: #FA8072; text-align:left "><h3><strong><p>ADDITIONAL RESOURCES</td>
                 <td style="color: #FA8072; text-align:right;"><h3><strong><p>10m</p><td>                </tr>
 </table>
-
-[Git-hands-on-1.pdf](https://github.com/clarusway/DS-1322-EU-DA-Module-Students/blob/main/2-%20Weekly%20Agendas/Week%202/Git-hands-on-1.pdf)
-                  
-[Git-hands-on-2.pdf](https://github.com/clarusway/DS-1322-EU-DA-Module-Students/blob/main/2-%20Weekly%20Agendas/Week%202/Git-hands-on_2.pdf)
-                  
-[Linux & Basic Linux Commands.pdf](https://github.com/clarusway/DS-1322-EU-DA-Module-Students/blob/main/2-%20Weekly%20Agendas/Week%202/Linux%20%26%20Basic%20Linux%20Commands.pdf)
+			
+- [Workshop-2(student)](https://github.com/clarusway/DS-1322-EU-DA-Module-Students/blob/main/2-%20Weekly%20Agendas/Week%204/Workshop-2(student).ipynb)
 
 <br>
 
 
 <hr><hr>
-
 
  :coffee: 
 <table style= "width:100%;">
@@ -342,26 +340,25 @@ print('abcdefcdghcd'.split('cd'))
 "><h3><strong><p>15m</p><td>                </tr>
 </table>
 
-**1. Look at this series: 80, 10, 70, 15, 60, … What number should come next?**
+**1. There are three houses. One is red, one is blue, and one is white. If the red house is to the left of the house in the middle, and the blue house is to the right of the house in the middle, where is the white house?**
+
+
 
 
 <b>
-
-**2. CUP : LIP :: BIRD : ?**
-
-<strong>A.</strong> GRASS<br>
-<strong>B.</strong> FOREST<br>
-<strong>C.</strong> BEAK<br>
-<strong>D.</strong> BUSH
-
 <b>
 
-**3. An Informal Gathering occurs when a group of people get together in a casual, relaxed manner. Which situation below is the best example of an Informal Gathering?**
 
-<strong>A.</strong> A debating club meets on the first Sunday morning of every month.<br>
-<strong>B.</strong> After finding out about his salary raise, Jay and a few colleagues go out for a quick dinner after work.<br>
-<strong>C.</strong> Meena sends out 10 invitations for a bachelorette party she is giving for her elder sister.<br>
-<strong>D.</strong> Whenever she eats at a Chinese restaurant, Roop seems to run into Dibya.
+**2. A boy and a doctor were fishing. The boy is the doctor's son, but the doctor isn't the boy's father. Who is the doctor?**
+
+
+
+<b>
+<b>
+
+**3. Two world's famous prisoners 'Colditz' and 'Pascal' are locked in a cell. They plan to escape from the cell. They noticed there is an open window at 40 feet above the ground level.Both of them tried very hard but are never able to reach there. Then both of them decided to plan to escape by a tunnel and they start digging out. After digging for just 5 days, Colditz and Pascal comes out with the much more easier plan than tunneling and they escaped. what was the plan?**
+
+
 
 
 <br>
@@ -371,11 +368,11 @@ print('abcdefcdghcd'.split('cd'))
 <table style= "width:100%;">
                 <tr>
                 <td style="color: #FA8072; text-align:left "><h3><strong><p>Video of the Week</td>
-                <td style="color: #FA8072; text-align:right;"><h3><strong><p>10m</p><td>                </tr>
+                <td style="color: #FA8072; text-align:right;"><h3><strong><p>5m</p><td>                </tr>
 </table>
 
+- [Day in the Life : Data Scientist](https://www.youtube.com/watch?v=_Wk9T_G-u4o)
 
-- [A day in the life of a Google Software Engineer](https://www.youtube.com/watch?v=a0glBQXOcl4&t=18s)
 
 <br>
 <hr>
@@ -407,4 +404,3 @@ Ask the questions below:
 - QA Session 
 
 <hr>
-
